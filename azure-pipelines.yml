@@ -7,7 +7,11 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-  - script: 'npm install -g jest && npm test'
+  - task: Npm@2
+    inputs:
+      command: 'custom'
+      customcommand: 'install -g jest'
+  - script: 'npm test'
     displayName: 'Run unit tests'
     continueOnError: true
   - task: PublishTestResults@2
