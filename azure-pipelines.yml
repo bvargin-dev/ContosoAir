@@ -3,10 +3,10 @@ pool:
 trigger:
   - master
 steps:
-  - task: JestInstall@1
+  - task: Npm@1
     inputs:
       command: 'custom'
-      customcommand: 'npm install jest'
+      customcommand: 'install jest'
   - task: Npm@1
     inputs:
       command: 'custom'
