@@ -3,10 +3,14 @@ pool:
 trigger:
   - master
 steps:
+  - task: JestInstall@1
+    inputs:
+      command: 'custom'
+      customcommand: 'npm install jest'
   - task: Npm@1
     inputs:
       command: 'custom'
-      customcommand: 'install --production && npm install jest'
+      customcommand: 'install --production'
   - script: 'npm test'
     displayName: 'Run unit tests'
     continueOnError: true
