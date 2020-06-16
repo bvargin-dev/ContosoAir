@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/AzureBVN/Contosoair/_apis/build/status/bvargin-dev.ContosoAir?branchName=master)](https://dev.azure.com/AzureBVN/Contosoair/_build/latest?definitionId=3&branchName=master)]
+[![Build Status](https://dev.azure.com/AzureBVN/Contosoair/_apis/build/status/bvargin-dev.ContosoAir?branchName=master)](https://dev.azure.com/AzureBVN/Contosoair/_build/latest?definitionId=3&branchName=master)
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
 
