@@ -7,7 +7,7 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-  - task: Npm@2
+  - task: Npm@1
     inputs:
       command: 'custom'
       customcommand: 'install -g jest'
